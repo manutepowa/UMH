@@ -1,0 +1,18 @@
+- Para trabajar con XHTML 1.1 me ha hecho falta la siguientes lineas de código
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html version="-//W3C//DTD XHTML 1.1//EN"
+	  xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+	  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:schemaLocation="http://www.w3.org/1999/xhtml
+	  					  http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd"
+>
+
+
+- A la hora de introducir la etiqueta <a>, hay que encerrarlo todo con la etiqueta <p>, sino no valida.
+- todas las etiquetas que no disponen de una segunda de cierre, es necesario terminar con ( /> ).
+- Al hacer el menú, como ya está el <a> englobado por el <li>, valida sin problemas.
