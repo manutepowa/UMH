@@ -8,15 +8,20 @@ html, body
 
 #header{
 	background-color: #333333;
+    -webkit-box-shadow: 0px 3px 9px 0px rgba(80, 129, 149, 1);
+-moz-box-shadow:    0px 3px 9px 0px rgba(80, 129, 149, 1);
+box-shadow:         0px 3px 9px 0px rgba(80, 129, 149, 1);
 }
 
 #form{
-	text-align: center; height: 2.42em;
+	text-align: center; 
+    height: 2.42em;
+    box-shadow
 }
 #form span{
     display: inline;
     width: 350px;
-    margin:0 auto;
+    /*margin:0 auto;*/
 
 }
 
@@ -30,10 +35,11 @@ html, body
 #form span input[type="text"]{
     background-color: #CCC;
     width: 250px;
+    vertical-align: top;
     /*margin-left: 3em;*/
 }
 #form span button[type="submit"]{
-    background-color: #A2CB23;
+    background-color: #666666;
     width: 4em;
     color: #FFFFFF;
     cursor: pointer;
