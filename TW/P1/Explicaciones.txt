@@ -18,4 +18,38 @@
 - Al hacer el menú, como ya está el <a> englobado por el <li>, valida sin problemas.
 - Al hacer las tablas la etiqueta ( height ) esta desaconsejada.
   y Todos los valores de los atributos tienen que ir entre comillas.
-- 
+
+  <p></p>
+  <h1></h1> <h2></h2> <h3></h3>
+  
+  <ul>
+  	<li></li>
+  </ul>
+  
+  <a href="" title=""></a>
+  <em></em>
+  <br />
+  <hr />
+  <img src="" alt="" />
+  
+  <table border="" cellspacing="" cellpadding="" width="">
+  	<tr>
+  		<th colspan="">
+  		</th>
+  	</tr>
+  	<tr>
+  		<td></td>
+  	</tr>
+  </table>
+
+ <div id="" class=""></div>
+
+<select name="" size="">
+	<option value="" selected="selected"></option>
+</select>
+
+<form action="" method="">
+	<input type="text" name="" />
+	<textarea name="" id="" cols="" rows=""></textarea>
+</form>
+
