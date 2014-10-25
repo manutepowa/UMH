@@ -4,6 +4,7 @@ html, body
 	padding: 0;
 	font-family: Arial, helvetica, sans-serif;
 	font-size: 1em;
+    background-color:#F3F3F3;
 }
 
 #header{
@@ -15,8 +16,8 @@ box-shadow:         0px 3px 9px 0px rgba(80, 129, 149, 1);
 
 #form{
 	text-align: center; 
-    height: 2.42em;
-    box-shadow
+    height: 3em;
+    /*box-shadow*/
 }
 #form span{
     display: inline;
@@ -28,28 +29,27 @@ box-shadow:         0px 3px 9px 0px rgba(80, 129, 149, 1);
 #form span input, button{
    	border: none; 
     padding: 0;
-    height: 2.9em;
+    height: 2.3em;
+    margin-top: .6em;
     outline: none;
 }
 
 #form span input[type="text"]{
-    background-color: #CCC;
+    background-color: #666666;
     width: 250px;
     vertical-align: top;
     /*margin-left: 3em;*/
 }
 #form span button[type="submit"]{
-    background-color: #666666;
-    width: 4em;
-    color: #FFFFFF;
+    background-color: #CCC;
+    width: 3em;
+    color: #666666;
     cursor: pointer;
-    /*-webkit-filter: invert(100%);
-    -o-filter: invert(100%);
-    filter: invert(100%);*/
+    
 }
 
 #form span input[type="text"]:focus{
-    background-color: #DDD;
+    background-color: #B4B4B4;
     border: none;
     width: 350px;
     color: #666;
@@ -58,7 +58,10 @@ box-shadow:         0px 3px 9px 0px rgba(80, 129, 149, 1);
 		-webkit-transition: .3s;
 }
 #form span button[type="submit"]:hover{
-    background-color: #FFFFFF;
+    background-color: #55DB33;
     color:#A2CB23;
+    -webkit-filter: invert(50%);
+    -o-filter: invert(50%);
+    filter: invert(50%);
     -webkit-transition: .3s;
 }
