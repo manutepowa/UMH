@@ -10,20 +10,54 @@ html, body
 #header{
 	background-color: #333333;
     -webkit-box-shadow: 0px 3px 9px 0px rgba(80, 129, 149, 1);
--moz-box-shadow:    0px 3px 9px 0px rgba(80, 129, 149, 1);
-box-shadow:         0px 3px 9px 0px rgba(80, 129, 149, 1);
+    -moz-box-shadow:    0px 3px 9px 0px rgba(80, 129, 149, 1);
+    box-shadow:         0px 3px 9px 0px rgba(80, 129, 149, 1);
+}
+
+#header div{
+    display: inline-block;
+}
+
+#nav{
+    background-color: blue;
+    width: 40%;
+}
+#nav ul{
+    background-color: #94E02C;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    min-height: 3em;
+    /*margin-left: 3em;*/
+}
+
+#nav ul li{
+    background-color: red;
+    margin-left: 2em;
+    /*margin-top: .2em;*/
+    /*min-height: 30px;*/
+    display: inline;
+}
+
+#login{
+    background-color: white;
+    width: 9%;
 }
 
 #form{
-	text-align: center; 
+	text-align: right; 
+    /*margin-right: 5em;*/
+    /*margin: 0;*/
     height: 3em;
+    width: 50%;
     /*box-shadow*/
+    background-color: green;
 }
 #form span{
     display: inline;
     width: 350px;
-    /*margin:0 auto;*/
-
+    margin:0 auto;
+    margin-right: 5em;
 }
 
 #form span input, button{
@@ -60,8 +94,8 @@ box-shadow:         0px 3px 9px 0px rgba(80, 129, 149, 1);
 #form span button[type="submit"]:hover{
     background-color: #55DB33;
     color:#A2CB23;
-    -webkit-filter: invert(50%);
+    /*-webkit-filter: invert(50%);
     -o-filter: invert(50%);
-    filter: invert(50%);
+    filter: invert(50%);*/
     -webkit-transition: .3s;
 }
