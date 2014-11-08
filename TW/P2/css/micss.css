@@ -383,9 +383,21 @@ hr {
     }
     .columna-4{width: 100%;}
     .footer{
-        position: absolute;
-        clear:both;
-        height: 300px; 
+        /*position: absolute;*/
+        /*clear:both;*/
+        height: 750px; 
+    }
+
+    .footer .container-nuevo .info-footer{
+        width: 100%;
+    }
+
+    .footer .container-nuevo .info-footer *{
+        text-align: center;
+    }
+
+    .color-middle {
+        height:865px;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
