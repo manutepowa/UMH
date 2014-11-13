@@ -193,7 +193,46 @@ html, body
 #container-login #header-login{
     text-align: center;
     font-family: monospace;
-    line-height: 100px;
+    line-height: 200px;
+}
+
+.body-login form{
+    text-align: center;
+    font-weight: 700;
+}
+
+.body-login form p{
+    margin-left: 2px;
+}
+.body-login form input[type="text"]{
+    width: 60%;
+    border: none; 
+    padding: 0;
+    height: 2.3em;
+    margin-top: .6em;
+    outline: none;
+
+    background-color: #299BD6;
+    border: none;
+    padding-left: 1em;
+    -webkit-transition: .3s;
+}
+
+.body-login form input[type="submit"] {
+    width: 30%;
+    padding: 10px;
+    margin-top: 15px;
+    font-weight: 700;
+    background-color: #333;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.body-login form input[type="submit"]:hover {
+    background-color: #299BD6;
+    color: #333;
+    -webkit-transition: .3s;
 }
 
 /*CUERPO*/
@@ -306,7 +345,7 @@ hr {
 /*FOOTER*/
 
 .footer{
-    width: 99%;
+    width: 100%;
     position: absolute;
     height: 340px;
     background-color: #333333;
@@ -362,8 +401,27 @@ hr {
   .container {
     width: 100%;
   }
+    #nav {
+        width: 85%;
+    }
+
+    #login{
+        width: 15%;
+    }
+
     
+
+    #nav ul{
+        position:  relative;
+        margin-left: 1em;
+        margin-top: .7em; 
+    }
+
     #header-ini .content-right{
+        display: none;
+    }
+
+    #form{
         display: none;
     }
 
@@ -373,7 +431,7 @@ hr {
     
      /*Caja login*/
 
-    .container-login{
+    #container-login{
         width:100%;
     }
 
@@ -405,9 +463,21 @@ hr {
     width: 90%;
   }
 
+  #form span{
+        margin-right: 2em;
+    }
+
+    #nav ul{
+        margin-left: 0;
+    }
+
+    #nav ul li a{
+        padding: 0 .3em 0 .3em;
+    }
+
    /*Caja login*/
 
-    .container-login{
+    #container-login{
         width:50%;
     }
 
