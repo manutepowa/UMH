@@ -1,0 +1,84 @@
+.containerProductos{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.headerProductos{
+	background: url("../img/blue-square.png");
+	background-color: #08b4da;
+	float: left;
+	width: 100%;
+}
+
+.headerProductos .containerProductos div{
+	margin: 0 auto;
+	
+	
+}
+
+.headerUp{
+	width: 50%;
+	padding-top: 2em;
+	text-align: center;
+	color: #333;
+}
+
+.headerDown{
+	width: 50%;
+	padding-top: 2em;
+	padding-bottom: 4em; 
+}
+
+
+
+.headerDown .bottonProducts{
+	width: 33.3333%;
+	float: left;
+	text-align: center;
+}
+
+.headerDown .bottonProducts a{
+	background-color: transparent;
+	color: #333;
+	border: 2px solid #333;
+	
+	text-decoration: none;
+	font-weight: 700;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.headerDown .bottonProducts a:hover{
+	background-color: #333;
+	color: #299BD6;
+	-webkit-transition: .3s;
+}
+
+/*CUERPO*/
+.Mtop{
+	margin-top: 3em;
+}
+
+.Mbottom{
+	margin-bottom: 3em;
+}
+
+.cuerpoProductos{
+	background-color: white;
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #CCC;
+	/*height: 650px;*/
+}
+
+.containerFoto{
+	width: 50%;
+	float:left;
+	text-align: center;
+}
+
+.textoFoto{
+	width: 49%;
+	float:left; 
+	line-height: 50px;
+}
