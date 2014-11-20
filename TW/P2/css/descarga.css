@@ -1,0 +1,24 @@
+.logoDes{
+	padding:20px;
+	background: url(../img/blue-square.png);
+	text-align: center;
+}
+
+.cuerpoDes{
+	width: 100%;
+	float:left;
+}
+
+.des{
+	background: url(../img/blue-square.png);
+	width: 33.333%;
+	float: left;
+	text-align: center;
+	padding-top:1.4em;
+	padding-bottom:1.4em;
+	margin-top: 12em;
+	margin-bottom: 12em;
+	-webkit-box-shadow: 0px 10px 24px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 10px 24px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 10px 24px 0px rgba(50, 50, 50, 0.75);
+}
