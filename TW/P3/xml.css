@@ -1,0 +1,48 @@
+*{
+	margin: 0 auto;
+}
+cuestionario{
+	background: #5F9EA0;
+	width: 80%;
+	/*margin: 0 auto;*/
+}
+
+tema{
+	background: #4D8182;
+	width: 100%;
+	margin: 20px auto;
+	float: left;
+}
+
+tema cuestion{
+	background: #5F9EA0;
+	float: left;
+	padding: 10px;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 3%;
+	margin-bottom: 30px;
+	border: 3px solid #DDA844;
+}
+
+enunciado{
+	width: 90%;
+	font-size: 20px;
+	font-weight: 700;
+	color:#575757;
+	float: left;
+	margin-bottom: 5px;
+}
+
+autor{
+	display: inline;
+	float: right;
+}
+
+respuesta{
+/*	background: red;
+*/	width: 95%;
+	margin: 0 2%;
+	padding: 7px;
+	float: left;
+}

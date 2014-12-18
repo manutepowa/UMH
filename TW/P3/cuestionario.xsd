@@ -12,6 +12,8 @@
 				<xsd:sequence>
 					<xsd:element name="cuestion" type="tipoCuestion" minOccurs="1" maxOccurs="unbounded" />
 				</xsd:sequence>
+
+				<xsd:attribute name="nombre" type="xsd:string" use="required" />
 			</xsd:complexType>
 
 			<xsd:complexType name="tipoCuestion">
@@ -19,8 +21,34 @@
 					<xsd:element name="enunciado" type="xsd:string" />
 					<xsd:element name="fecha" type="xsd:string" />
 					<xsd:element name="autor" type="xsd:string" />
+					<xsd:element name="respuesta" minOccurs="1" maxOccurs="4" type="xsd:string" />
 				</xsd:sequence>
+					
+					<xsd:attribute name="id" type="xsd:ID" use="required" />
+					<xsd:attribute name="tipo" type="tipoPregunta" use="required" />
+					<xsd:attribute name="varias" type="tipoVarias" use="optional" />
+
+					<xsd:attribute name="maximo" type="xsd:integer" use="optional" />
+					<xsd:attribute name="minimo" type="xsd:integer" use="optional" />
+					<xsd:attribute name="columnas" type="xsd:integer" use="optional" />
+
 			</xsd:complexType>
+
+			<xsd:simpleType name="tipoPregunta">
+				<xsd:restriction base="xsd:string">
+					<xsd:enumeration value="codificada" />
+					<xsd:enumeration value="numerica" />
+					<xsd:enumeration value="logica" />
+					<xsd:enumeration value="texto" />
+				</xsd:restriction>
+			</xsd:simpleType>
+
+			<xsd:simpleType name="tipoVarias">
+				<xsd:restriction base="xsd:string">
+					<xsd:enumeration value="si" />
+					<xsd:enumeration value="no" />
+				</xsd:restriction>
+			</xsd:simpleType>
 	</xsd:schema>
 
 	

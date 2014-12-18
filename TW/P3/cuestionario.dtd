@@ -1,6 +1,6 @@
 <!ELEMENT cuestionario (tema+)>
 <!ELEMENT tema (cuestion+)>
-<!ELEMENT cuestion (enunciado,fecha,autor,respuesta*) >
+<!ELEMENT cuestion (enunciado,fecha,autor,respuesta+) >
 <!ELEMENT enunciado (#PCDATA) >
 <!ELEMENT fecha (#PCDATA) >
 <!ELEMENT autor (#PCDATA) >
