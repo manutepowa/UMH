@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!-- <!DOCTYPE cuestionario SYSTEM "cuestionario.dtd"> -->
+<?xml-stylesheet type="text/css" href="EstiloXML.css"?>
+<cuestionario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cuestionario.xsd">
+	<tema nombre="programacion">
+		<cuestion id="P1" autor="Nestor Edrev" fecha="20/11/2014" tipo="Codificada" varias="si">
+			<enunciado>Que lenguaje suele a utilizar a la hora de programar?</enunciado>
+			<respuesta>C</respuesta>
+			<respuesta>C++</respuesta>
+			<respuesta>Bash</respuesta>
+			<respuesta>Ensamblador</respuesta>
+		</cuestion>
+		
+		<cuestion id="P2" autor="Nestor Edrev" fecha="20/11/2014" tipo="Codificada" varias="no">
+			<enunciado>Que editor de texto suele a utilizar?</enunciado>
+			<respuesta>Sublime 3</respuesta>
+			<respuesta>Notepad++</respuesta>
+			<respuesta>Notepad Programmer</respuesta>
+			<respuesta>Nano</respuesta>
+		</cuestion>
+
+		<cuestion id="P3" autor="Nestor Edrev" fecha="20/11/2014" tipo="Numerica" minimo="0" maximo="40">
+				<enunciado>Cuantas horas a la semana le dedica a la programacion?</enunciado>
+				<respuesta></respuesta>
+		</cuestion>
+
+		<cuestion id="P4" autor="Nestor Edrev" fecha="20/11/2014" tipo="Logica">
+				<enunciado>Posee algun titulo de Ciclo Formativo de Grado Superior?</enunciado>
+				<respuesta>Si</respuesta>
+				<respuesta>No</respuesta>
+
+
+		</cuestion>
+
+		<cuestion id="P5" autor="Nestor Edrev" fecha="20/11/2014" tipo="TextoLibre" filas="15" columnas="87">
+				<enunciado>Algo mas que anadir?</enunciado>
+				<respuesta></respuesta>
+		</cuestion>
+	</tema>
+
+	<tema nombre="deporte">
+		<cuestion id="D1" autor="Nestor Edrev" fecha="26/11/2014" tipo="Codificada" varias="si">
+			<enunciado>Cual es tu deporte favorito?</enunciado>
+			<respuesta>Futbol</respuesta>
+			<respuesta>Baloncesto</respuesta>
+			<respuesta>Tenis</respuesta>
+			<respuesta>Otro</respuesta>
+		</cuestion>
+
+		<cuestion id="D2" autor="Nestor Edrev" fecha="26/11/2014" tipo="Codificada" varias="no">
+			<enunciado>Cual es tu equipo de futbol favorito?</enunciado>
+			<respuesta>Real Madrid</respuesta>
+			<respuesta>F.C. Barcelona</respuesta>
+			<respuesta>F.C. Orihuela</respuesta>
+			<respuesta>No tengo equipo favorito</respuesta>
+		</cuestion>
+
+		<cuestion id="D3" autor="Nestor Edrev" fecha="26/11/2014" tipo="Numerica" minimo="0" maximo="10">
+			<enunciado>Cuanto tiempo a la semana le dedica al deporte?</enunciado>
+				<respuesta></respuesta>
+		</cuestion>
+
+		<cuestion id="D4" autor="Nestor Edrev" fecha="26/11/2014" tipo="Logica">
+			<enunciado>Tiene algun trofeo/medalla de algun evento deportivo?</enunciado>
+				<respuesta></respuesta>
+		</cuestion>
+
+		<cuestion id="D5" autor="Nestor Edrev" fecha="20/11/2014" tipo="TextoLibre" filas="15" columnas="87">
+			<enunciado>Algo mas que anadir?</enunciado>
+			<respuesta></respuesta>
+		</cuestion>
+	</tema>	
+</cuestionario>

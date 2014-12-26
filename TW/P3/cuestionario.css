@@ -1,0 +1,41 @@
+*{
+	margin: 0 auto;
+}
+
+body{
+	background: #5F9EA0;
+	width: 80%;
+	/*margin: 0 auto;*/
+}
+
+.tema{
+	background: #4D8182;
+	width: 100%;
+	margin: 20px auto;
+	float: left;
+}
+
+.tema *
+{
+	margin: 5px 20px;
+}
+
+.tema > h2{
+	padding: 10px;
+}
+
+.cuestion{
+	background-color: #5F9EA0;
+}
+.cuestion *{
+	font-weight: 500;
+}
+.cuestion .autor, .fecha{
+	/*font-size: 40px;*/
+	float: right;
+}
+
+.cuestion .enunciado{
+	font-size: 22px;
+	font-weight: 700;
+}

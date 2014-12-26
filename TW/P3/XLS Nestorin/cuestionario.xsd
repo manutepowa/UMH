@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="cuestionario" type="tipoCuestionario"/>
+
+	<xsd:complexType name="tipoCuestionario" >
+		<xsd:sequence>
+			<xsd:element name="tema" type="tipoTema" minOccurs="1" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="tipoTema">
+		<xsd:sequence>
+			<xsd:element name="cuestion" type="tipoCuestion" minOccurs="1" maxOccurs="unbounded"/>
+		</xsd:sequence>
+		<xsd:attribute name="nombre" type="xsd:ID" use="required"/> 
+	</xsd:complexType>
+
+	<xsd:complexType name="tipoCuestion">
+		<xsd:sequence>
+			<xsd:element name="enunciado" type="xsd:string"/>
+			<xsd:element name="respuesta" type="xsd:string" minOccurs="1" maxOccurs="4"/>
+		</xsd:sequence>
+			<xsd:attribute name="id" type="xsd:ID" use="required"/>
+			<xsd:attribute name="autor" type="xsd:string" use="optional"/>
+			<xsd:attribute name="fecha" type="xsd:string" use="optional"/>
+			<xsd:attribute name="minimo" type="xsd:integer" use="optional"/>
+			<xsd:attribute name="maximo" type="xsd:integer" use="optional"/>
+			<xsd:attribute name="columnas" type="xsd:integer" use="optional"/>
+			<xsd:attribute name="filas" type="xsd:integer" use="optional"/>
+			<xsd:attribute name="tipo" type="tipoTipo" use="required"/>
+			<xsd:attribute name="varias" type="tipoVarias" use="optional"/>
+	</xsd:complexType>
+
+	<xsd:simpleType name="tipoTipo">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="Codificada"/>
+			<xsd:enumeration value="Numerica"/>
+			<xsd:enumeration value="Logica"/>
+			<xsd:enumeration value="TextoLibre"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:simpleType name="tipoVarias">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="si"/>
+			<xsd:enumeration value="no"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+</xsd:schema>	

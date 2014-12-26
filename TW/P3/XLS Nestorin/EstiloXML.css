@@ -1,0 +1,39 @@
+cuestionario{
+	background: gray;
+	width: 50%;
+	margin-left: 30px;
+}
+
+tema{
+	background: green;
+	width: 100%;
+	margin: 30px auto;
+	float: left;
+}
+
+tema cuestion{
+	background: blue;
+	float: left;
+	padding: 15px;
+	width: 90%;
+	margin-left: 2%;
+	margin-top: 3%;
+	margin-bottom: 30px;
+	border: 3px solid black;
+}
+
+enunciado{
+	width: 100%;
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	margin-bottom: 5px;
+}
+
+respuesta{
+	width: 100%;
+	padding: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	float: left;
+}

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<!-- <!DOCTYPE cuestionario SYSTEM "cuestionario.DTD"> -->
+<cuestionario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cuestionario.xsd">
+<!-- <cuestionario> -->
+	<tema nombre="informatica">
+		<cuestion tipo="logica" codigo="inf1">
+			<fecha>
+				11/12/2014
+			</fecha>
+			<autor>
+				Angel Fuentes
+			</autor>
+			<enunciado>
+				1. El primer sistema operativo fue el Windows 98
+			</enunciado>
+			<respuesta>Verdadero</respuesta>
+			<respuesta>Falso</respuesta>
+		</cuestion>
+
+		<cuestion tipo="texto" codigo="inf2" filas="10" columnas="50">
+			<fecha>
+				11/12/2014
+			</fecha>
+			<autor>
+				Angel Fuentes
+			</autor>
+			<enunciado>
+				2. Diferencias entre programacion secuencial y programacion en paralelo
+			</enunciado>
+			<respuesta></respuesta>
+		</cuestion>
+
+		<cuestion tipo="numerica" codigo="inf3" min="10" max="10">
+			<fecha>
+				11/12/2014
+			</fecha>
+			<autor>
+				Angel Fuentes
+			</autor>
+			<enunciado>
+				3. Cual es mi nota en esta practica
+			</enunciado>
+			<respuesta></respuesta>
+		</cuestion>
+
+		<cuestion tipo="codificada" codigo="inf5" varias="no">
+			<fecha>
+				11/12/2014
+			</fecha>
+			<autor>
+				Angel Fuentes
+			</autor>
+			<enunciado>
+				4. Selecciona cual NO es un sistema operativo
+			</enunciado>
+			<respuesta>
+				Linux
+			</respuesta>
+			<respuesta>
+				Solaris
+			</respuesta>
+			<respuesta>
+				OS X
+			</respuesta>
+			<respuesta>
+				HTML
+			</respuesta>
+		</cuestion>
+	</tema>
+	<tema nombre="futbol">
+		<cuestion tipo="logica" codigo="fut1">
+			<fecha>
+				11/12/2014
+			</fecha>
+			<autor>
+				Angel Fuentes
+			</autor>
+			<enunciado>
+				1. Mourinhio entreno el FC Barcelona
+			</enunciado>
+			<respuesta>Verdadero</respuesta>
+			<respuesta>Falso</respuesta>
+		</cuestion>
+
+		<cuestion tipo="texto" codigo="fut2" filas="10" columnas="50">
+			<fecha>
+				11/12/2014
+			</fecha>
+			<autor>
+				Angel Fuentes
+			</autor>
+			<enunciado>
+				2. Ultimo pichichi de la liga inglesa
+			</enunciado>
+			<respuesta></respuesta>
+		</cuestion>
+
+		<cuestion tipo="numerica" codigo="fut3" min="1" max="15">
+			<fecha>
+				11/12/2014
+			</fecha>
+			<autor>
+				Angel Fuentes
+			</autor>
+			<enunciado>
+				3. Numero de copas del rey del Barcelona
+			</enunciado>
+			<respuesta></respuesta>
+		</cuestion>
+
+		<cuestion tipo="codificada" codigo="fut5" varias="si">
+			<fecha>
+				11/12/2014
+			</fecha>
+			<autor>
+				Angel Fuentes
+			</autor>
+			<enunciado>
+				4. Selecciona los equipos Italiano
+			</enunciado>
+			<respuesta>
+				Elche CF
+			</respuesta>
+			<respuesta>
+				Juventus
+			</respuesta>
+			<respuesta>
+				Ajax
+			</respuesta>
+			<respuesta>
+				Roma
+			</respuesta>
+		</cuestion>
+	</tema>
+</cuestionario>

@@ -30,6 +30,7 @@
 
 					<xsd:attribute name="maximo" type="xsd:integer" use="optional" />
 					<xsd:attribute name="minimo" type="xsd:integer" use="optional" />
+					<xsd:attribute name="filas" type="xsd:integer" use="optional" />
 					<xsd:attribute name="columnas" type="xsd:integer" use="optional" />
 
 			</xsd:complexType>

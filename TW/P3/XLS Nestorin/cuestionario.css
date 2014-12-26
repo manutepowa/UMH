@@ -1,0 +1,43 @@
+body{
+	background-color: gray;
+}
+
+body h1{
+	margin-left:  12%;
+}
+
+body h2{
+	margin-left:  11%;
+}
+
+body h3{
+	margin-left: 2%;
+	font-size: 20px;
+}
+
+.pregunta{
+	width: 50%;
+	background-color: green;
+	border: 2px solid black;	
+}
+
+.respuesta{
+	width: 50%;
+	background-color: blue;
+	border: 2px solid black;
+}
+
+.respuesta p{
+	font-size: 15px;
+	font-weight: bold;	
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#numerica{
+	width: 50%;
+	background-color: blue;
+	border: 2px solid black;
+}
+#numerica input{
+	width: 20%;
+}

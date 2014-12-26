@@ -1,0 +1,15 @@
+<!ELEMENT cuestionario (tema+)>
+<!ELEMENT tema (cuestion+)>
+<!ATTLIST tema nombre CDATA #IMPLIED>
+<!ELEMENT cuestion (fecha, autor, enunciado, respuesta*)>
+<!ATTLIST cuestion tipo (codificada|numerica|logica|texto) #REQUIRED
+				   codigo ID #REQUIRED
+				   varias (si|no) #IMPLIED
+				   minimo CDATA #IMPLIED
+           		   maximo CDATA #IMPLIED
+           		   filas CDATA #IMPLIED
+           		   columnas CDATA #IMPLIED>
+<!ELEMENT enunciado (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT respuesta (#PCDATA)>

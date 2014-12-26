@@ -11,28 +11,64 @@
 			<respuesta>Ubuntu</respuesta>
 			<respuesta>Debian</respuesta>
 			<respuesta>Red Hat</respuesta>
-			<respuesta>Lubuntu</respuesta>
+			<respuesta>OX LION</respuesta>
 		</cuestion>
-		<cuestion tipo="numerica" id="A2">
-			<enunciado>Cuantas distribuciones de las siguientes son Linux.</enunciado>
+		<cuestion tipo="codificada" id="A1" varias="no">
+			<enunciado>Cual de las distribuciones son Linux.</enunciado>
+			<fecha>12/11/2014</fecha>
+			<autor>Manuel Tercero</autor>
+			
+			<respuesta>Ubuntu</respuesta>
+			<respuesta>WINDOWS 7</respuesta>
+			<respuesta>WINDOWS</respuesta>
+			<respuesta>OX LION</respuesta>
+		</cuestion>
+		<cuestion tipo="numerica" id="A2" minimo="10" maximo="15">
+			<enunciado>Cuantas distribuciones basadas en Debian hay.</enunciado>
 			<fecha>12/10/2014</fecha>
 			<autor>Manuel Tercero</autor>
 
-			<respuesta>2</respuesta>
+			<respuesta></respuesta>
+		</cuestion>
+		<cuestion tipo="logica" id="A3">
+			<enunciado>Red Hat esta basado en Debian?.</enunciado>
+			<fecha>14/11/2014</fecha>
+			<autor>Manuel Tercero</autor>
+
+			<respuesta>Verdadero</respuesta>
+			<respuesta>Falso</respuesta>
+		</cuestion>
+		<cuestion tipo="codificada" id="A5" varias="no">
+			<enunciado>Cual de las siguientes distribuciones no es Linux.</enunciado>
+			<fecha>12/11/2014</fecha>
+			<autor>Manuel Tercero</autor>
+			
+			<respuesta>Ubuntu</respuesta>
+			<respuesta>Debian</respuesta>
+			<respuesta>Red Hat</respuesta>
+			<respuesta>Windows RT</respuesta>
+		</cuestion>
+		<cuestion tipo="texto" id="A4" filas="5" columnas="60">
+			<enunciado>Como funciona Visual Studio.</enunciado>
+			<fecha>11/11/2014</fecha>
+			<autor>Manuel Tercero</autor>
+			<respuesta></respuesta>
 		</cuestion>
 	</tema>
 	<tema nombre="windows">
 		<cuestion tipo="logica" id="A3">
-			<enunciado>Cuantas distribuciones de las siguientes son Linux.</enunciado>
+			<enunciado>Red Hat esta basado en Debian?.</enunciado>
 			<fecha>14/11/2014</fecha>
 			<autor>Manuel Tercero</autor>
-			<respuesta>2</respuesta>
+
+			<respuesta>Verdadero</respuesta>
+			<respuesta>Falso</respuesta>
 		</cuestion>
-		<cuestion tipo="texto" id="A4">
-			<enunciado>Cuantas distribuciones de las siguientes son Linux.</enunciado>
+		<cuestion tipo="texto" id="A4" filas="10" columnas="12">
+			<enunciado>Como funciona Visual Studio.</enunciado>
 			<fecha>11/11/2014</fecha>
 			<autor>Manuel Tercero</autor>
-			<respuesta>2</respuesta>
+			<respuesta></respuesta>
 		</cuestion>
 	</tema>
 </cuestionario>
