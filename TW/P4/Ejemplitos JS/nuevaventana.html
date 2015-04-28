@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Apuntes JS</title>
+	<script>
+		
+		// Usar el Promt y el comfirm
+		// if (confirm("Desea cerrar") == true)
+		// 	self.close();
+		
+		var i = 23;
+		function NuevaVentana(){
+			nueva = window.open("http://www.umh.es","scrollbar=yes","width=200", "height=200");
+			nueva.document.writeln("<html><head><title>");
+			nueva.document.writeln("Ejemplo hora");
+			nueva.document.writeln("</title></head><body bgcolor=#ffff90><div id='prueba'></div>");
+
+			hora("nueva");
+		}
+
+		function hora(par_ventana)
+		{
+			var ventana, fecha;
+			fecha = new Date();
+			ventana = eval(par_ventana);
+			// ventana.document.writeln(fecha.getHours()+':'+fecha.getMinutes()+':'+fecha.getSeconds());
+
+			ventana.document.getElementById('prueba').innerText = fecha.getHours()+':'+fecha.getMinutes()+':'+fecha.getSeconds();
+
+			ventana.document.writeln("  ");
+			setTimeout("hora('nueva')", 1000);
+		}
+
+	</script>
+</head>
+<body>
+	
+	<script>
+		NuevaVentana();
+	</script>
+
+</body>
+</html>
